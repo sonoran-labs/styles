@@ -1,0 +1,44 @@
+/**** FLEX UTILS ****/
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-end {
+    justify-content: end;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-fill {
+    flex: 1;
+}
+
+.flex-gap {
+    gap: $flex-gap;
+}
+
+.flex-gap--half {
+    gap: calc($flex-gap / 2);
+}
+
+.flex-gap--quarter {
+    gap: calc($flex-gap / 4);
+}

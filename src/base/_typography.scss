@@ -1,0 +1,23 @@
+.capitalize {
+    text-transform: capitalize;
+}
+
+.text--center {
+    text-align: center;
+}
+
+.text--md {
+    font-size: $text-md;
+}
+
+.text--sm {
+    font-size: $text-sm;
+}
+
+.text--primary {
+    color: rgb($primary-color);
+}
+
+.text--danger {
+    color: rgb($danger-color);
+}

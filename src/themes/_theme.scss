@@ -1,0 +1,29 @@
+// Colors
+$white: 255 255 255;
+$black: 0, 0, 0;
+
+$primary-color: 2, 105, 161;
+$primary-color-light: 2, 132, 199;
+
+$success-color: 2, 138, 38;
+    
+$danger-color: 255, 0, 0;
+$default-background-color: 229, 231, 235;
+// END Colors
+
+// Spacing/Shaping
+$rounded-radius: 0.325rem;
+$rounded-radius--sm: 0.25rem;
+
+$padding: 1rem 1.5rem;
+$padding--md: 0.5rem 0.75rem;
+$padding--sm: 0.25rem 0.5rem;
+
+$flex-gap: 1em;
+// END Spacing/Shaping
+
+// Typography
+$text-font: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+$text-md: 0.925rem;
+$text-sm: 0.875rem;
+// END Typography
