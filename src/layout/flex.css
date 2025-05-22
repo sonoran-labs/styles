@@ -32,13 +32,13 @@
 }
 
 .flex-gap {
-    gap: $flex-gap;
+    gap: var(--flex-gap);
 }
 
 .flex-gap--half {
-    gap: calc($flex-gap / 2);
+    gap: calc(var(--flex-gap) / 2);
 }
 
 .flex-gap--quarter {
-    gap: calc($flex-gap / 4);
+    gap: calc(var(--flex-gap) / 4);
 }

@@ -1,5 +1,5 @@
 .padded {
-    padding: $padding;
+    padding: var(--padding);
 }
 
 .w-24 {

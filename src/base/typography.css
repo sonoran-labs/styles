@@ -7,17 +7,17 @@
 }
 
 .text--md {
-    font-size: $text-md;
+    font-size: var(--text-md);
 }
 
 .text--sm {
-    font-size: $text-sm;
+    font-size: var(--text-sm);
 }
 
 .text--primary {
-    color: rgb($primary-color);
+    color: rgb(var(--primary-color));
 }
 
 .text--danger {
-    color: rgb($danger-color);
+    color: rgb(var(--danger-color));
 }

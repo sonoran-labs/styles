@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "Starter project for SCSS to CSS compilation",
   "scripts": {
-    "build": "sass src/main.scss dist/main.css",
-    "watch": "sass --watch src/main.scss:dist/main.css"
+    "build": "gulp minify-css"
   },
   "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-clean-css": "^4.3.0",
     "sass": "^1.69.0"
   }
 }

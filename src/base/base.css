@@ -1,0 +1,4 @@
+body {
+    font-family: var(--text-font);
+    color: rgba(var(--black), .8);
+}
