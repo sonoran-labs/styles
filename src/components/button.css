@@ -1,0 +1,37 @@
+.button {
+    min-width: 6rem;
+    align-self: end;
+    padding: var(--padding--sm);
+
+    border: none;
+    border-radius: var(--rounded-radius--sm);
+
+    font-weight: 500;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    &__filled {
+        color: rgb(var(--white));
+
+        &:hover {
+            background-color: rgb(var(--primary-color-light));
+        }
+
+        &--default {
+            background-color: rgb(var(--primary-color));
+        }
+    }
+
+    &__text {
+        min-width: 3rem;
+        color: rgb(var(--primary-color));
+        background-color: transparent;
+
+        &:hover {
+            color: rgb(var(--primary-color-light));
+            background-color: rgba(var(--primary-color), .25);
+        }
+    }
+}
