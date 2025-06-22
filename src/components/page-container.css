@@ -1,0 +1,10 @@
+.page-container {
+    height: 100vh;
+    background-color: rgb(var(--default-background-color));
+}
+
+.page-container--is-centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
