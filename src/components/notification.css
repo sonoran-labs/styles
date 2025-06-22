@@ -1,0 +1,19 @@
+.notification-container {
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    z-index: 10;
+}
+
+.notification {
+    padding: var(--padding--md);
+    border-left-width: .2rem;
+    background-color: rgb(var(--white));
+    position: relative;
+    max-width: 24rem;
+    font-weight: 600;
+
+    &--success {
+        border-left-color: rgb(var(--success-color));
+    }
+}

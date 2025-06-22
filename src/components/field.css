@@ -1,0 +1,11 @@
+input {
+    border-color: rgba(var(--black), 0.15);
+    font-size: var(--text-md);
+    padding: var(--padding--sm);
+    border-radius: 1px;
+    border-width: 1px;
+
+    &:focus {
+        outline: .15rem solid rgba(var(--black), .1);
+    }
+}
