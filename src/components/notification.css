@@ -12,8 +12,8 @@
     position: relative;
     max-width: 24rem;
     font-weight: 600;
+}
 
-    &--success {
-        border-left-color: rgb(var(--success-color));
-    }
+.notification--success {
+    border-left-color: rgb(var(--success-color));
 }
