@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Starter project for SCSS to CSS compilation",
   "scripts": {
-    "build": "gulp minify-css"
+    "build": "gulp build",
+    "dev": "gulp watch"
   },
   "devDependencies": {
     "gulp": "^5.0.0",
