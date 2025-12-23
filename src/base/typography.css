@@ -14,10 +14,22 @@
     font-size: var(--text-sm);
 }
 
+.text--xs {
+    font-size: var(--text-xs);
+}
+
+.text--white {
+    color: rgb(var(--white))
+}
+
 .text--primary {
-    color: rgb(var(--primary-color));
+    color: rgb(var(--primary-color-dark));
 }
 
 .text--danger {
     color: rgb(var(--danger-color));
+}
+
+.text--bold {
+    font-weight: 700;
 }

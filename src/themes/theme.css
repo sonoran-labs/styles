@@ -2,13 +2,14 @@
     --white: 255, 255, 255;
     --black: 0, 0, 0;
 
-    --primary-color: 3, 105, 161;
-    --primary-color-light: 2, 132, 199;
-
+    --primary-color: 255, 121, 59;
+    --primary-color-light: 255, 176, 110;
+    --primary-color-dark: 191, 68, 2;
+    
     --success-color: 2, 138, 38;
         
-    --danger-color: #ff0000;
-    --default-background-color: #e5e7eb;
+    --danger-color: 255, 0, 0;
+    --default-background-color: 241, 243, 247;
 
     --rounded-radius: 0.325rem;
     --rounded-radius--sm: 0.25rem;
@@ -22,4 +23,9 @@
     --text-font: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
     --text-md: 0.925rem;
     --text-sm: 0.875rem;
+    --text-xs: 0.75rem;
+}
+
+body {
+    font-family: var(--text-font);
 }

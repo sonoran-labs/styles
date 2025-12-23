@@ -14,7 +14,7 @@
 }
 
 .button__filled {
-    color: rgb(var(--white));
+    color: rgb(var(--white)) !important;
 }
 
 .button__filled:hover {
@@ -32,6 +32,47 @@
 }
 
 .button__text:hover {
-    color: rgb(var(--primary-color-light));
-    background-color: rgba(var(--primary-color), .25);
+    color: rgb(var(--primary-color-dark));
+    background-color: rgb(var(--primary-color-light));
+}
+
+.button--is-loading {
+    position: relative;
+}
+
+.button--is-loading::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.button-loader {
+    width: 30px;
+    aspect-ratio: 4;
+    --_g: no-repeat radial-gradient(circle closest-side, #FFF 90%, #0000);
+    background:
+        var(--_g) 0% 50%,
+        var(--_g) 50% 50%,
+        var(--_g) 100% 50%;
+    background-size: calc(100%/3) 100%;
+    animation: l7 1s infinite linear;
+    position: absolute;
+    top: calc(50% - 3.75px);
+    left: calc(50% - 15px);
+}
+
+@keyframes l7 {
+    33% {
+        background-size: calc(100%/3) 0%, calc(100%/3) 100%, calc(100%/3) 100%
+    }
+
+    50% {
+        background-size: calc(100%/3) 100%, calc(100%/3) 0%, calc(100%/3) 100%
+    }
+
+    66% {
+        background-size: calc(100%/3) 100%, calc(100%/3) 100%, calc(100%/3) 0%
+    }
 }
