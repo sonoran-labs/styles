@@ -21,6 +21,7 @@
     --flex-gap: 1em;
 
     --text-font: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    --text-lg: 1rem;
     --text-md: 0.925rem;
     --text-sm: 0.875rem;
     --text-xs: 0.75rem;

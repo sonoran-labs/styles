@@ -9,6 +9,10 @@
     flex-direction: column;
 }
 
+.justify-start {
+    align-items: start;
+}
+
 .justify-center {
     justify-content: center;
 }
