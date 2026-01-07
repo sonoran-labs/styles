@@ -13,8 +13,8 @@
     cursor: pointer;
 }
 
-.button__filled {
-    color: rgb(var(--white)) !important;
+.button__filled > span {
+    color: rgb(var(--white));
 }
 
 .button__filled:hover {
@@ -27,13 +27,17 @@
 
 .button__text {
     min-width: 3rem;
-    color: rgb(var(--primary-color));
     background-color: transparent;
+    border: solid 1px transparent;
+}
+
+.button__text > span {
+    color: rgb(var(--primary-color));
 }
 
 .button__text:hover {
     color: rgb(var(--primary-color-dark));
-    background-color: rgb(var(--primary-color-light));
+    border: solid 1px rgb(var(--primary-color-light));
 }
 
 .button--is-loading {
